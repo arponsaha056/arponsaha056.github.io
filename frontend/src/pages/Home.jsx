@@ -207,7 +207,7 @@ const Home = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <Badge className="bg-[#D4AF37]/20 text-[#F4C542] border-[#D4AF37] px-4 py-1">
+              <Badge className="bg-[#D4AF37]/20 text-[#F4C542] border-[#D4AF37] px-4 py-1 font-medium">
                 Textile Engineer
               </Badge>
             </motion.div>
