@@ -496,7 +496,7 @@ const Home = () => {
                           className="flex items-center gap-3 p-3 bg-[#0A1628]/50 rounded-lg border border-[#D4AF37]/10 hover:border-[#D4AF37]/30 transition-all"
                         >
                           <Icon className="h-5 w-5 text-[#D4AF37]" />
-                          <span className="text-sm">{skill.name}</span>
+                          <span className="text-sm text-white">{skill.name}</span>
                         </motion.div>
                       );
                     })}
