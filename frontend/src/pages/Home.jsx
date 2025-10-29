@@ -790,14 +790,14 @@ const Home = () => {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-2">Message</label>
+                    <label className="block text-sm font-medium text-gray-200 mb-2">Message</label>
                     <Textarea 
                       name="message"
                       value={formData.message}
                       onChange={handleInputChange}
                       required
                       rows={6}
-                      className="bg-[#0A1628]/50 border-[#D4AF37]/30 text-white focus:border-[#D4AF37] transition-colors resize-none"
+                      className="bg-[#0A1628]/50 border-[#D4AF37]/30 text-white placeholder:text-gray-400 focus:border-[#D4AF37] transition-colors resize-none"
                       placeholder="Tell me about your project or inquiry..."
                     />
                   </div>
