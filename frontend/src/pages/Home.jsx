@@ -310,7 +310,7 @@ const Home = () => {
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
                     <h3 className="text-2xl font-semibold mb-4 text-[#F4C542]">Career Objective</h3>
-                    <p className="text-gray-300 leading-relaxed">
+                    <p className="text-gray-200 leading-relaxed">
                       To build a dynamic career in the global textile and apparel industry, where I can apply my technical expertise in production, merchandising, and supply chain optimization while continuously developing innovative and sustainable solutions that create measurable business value.
                     </p>
                   </div>
@@ -329,7 +329,7 @@ const Home = () => {
                           whileInView={{ opacity: 1, x: 0 }}
                           viewport={{ once: true }}
                           transition={{ delay: index * 0.1 }}
-                          className="flex items-start gap-3 text-gray-300"
+                          className="flex items-start gap-3 text-gray-200"
                         >
                           <div className="h-2 w-2 bg-[#D4AF37] rounded-full mt-2"></div>
                           <span>{item}</span>
