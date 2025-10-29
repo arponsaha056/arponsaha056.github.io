@@ -139,19 +139,9 @@ const Home = () => {
       title: 'University Campus'
     },
     {
-      url: 'https://images.pexels.com/photos/159490/yale-university-landscape-universities-schools-159490.jpeg',
-      category: 'Events',
-      title: 'Academic Environment'
-    },
-    {
       url: 'https://images.pexels.com/photos/6660927/pexels-photo-6660927.jpeg',
       category: 'Projects',
       title: 'Textile Production'
-    },
-    {
-      url: 'https://images.pexels.com/photos/2372978/pexels-photo-2372978.jpeg',
-      category: 'Art',
-      title: 'Creative Gallery'
     },
     {
       url: 'https://images.unsplash.com/photo-1598268012815-ae21095df31b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBzdWNjZXNzfGVufDB8fHx8MTc2MTczMzgyN3ww&ixlib=rb-4.1.0&q=85',
