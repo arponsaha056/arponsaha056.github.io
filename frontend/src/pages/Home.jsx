@@ -765,14 +765,14 @@ const Home = () => {
                       />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-gray-300 mb-2">Your Email</label>
+                      <label className="block text-sm font-medium text-gray-200 mb-2">Your Email</label>
                       <Input 
                         type="email"
                         name="email"
                         value={formData.email}
                         onChange={handleInputChange}
                         required
-                        className="bg-[#0A1628]/50 border-[#D4AF37]/30 text-white focus:border-[#D4AF37] transition-colors"
+                        className="bg-[#0A1628]/50 border-[#D4AF37]/30 text-white placeholder:text-gray-400 focus:border-[#D4AF37] transition-colors"
                         placeholder="john@example.com"
                       />
                     </div>
