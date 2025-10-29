@@ -529,7 +529,7 @@ const Home = () => {
                         viewport={{ once: true }}
                         transition={{ delay: index * 0.1 }}
                       >
-                        <Badge className="bg-gradient-to-r from-[#D4AF37]/20 to-[#F4C542]/20 text-white border-[#D4AF37]/30 px-4 py-2 text-sm hover:border-[#D4AF37] transition-all">
+                        <Badge className="bg-gradient-to-r from-[#D4AF37]/20 to-[#F4C542]/20 text-white border-[#D4AF37]/30 px-4 py-2 text-sm hover:border-[#D4AF37] transition-all font-medium">
                           {skill}
                         </Badge>
                       </motion.div>
