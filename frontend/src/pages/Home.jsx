@@ -611,7 +611,7 @@ const Home = () => {
                     className="flex items-start gap-3 p-4 bg-[#1A2332]/50 border border-[#D4AF37]/20 rounded-lg hover:border-[#D4AF37]/50 transition-all duration-300"
                   >
                     <div className="h-2 w-2 bg-[#D4AF37] rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-gray-300">{achievement}</span>
+                    <span className="text-gray-200">{achievement}</span>
                   </motion.div>
                 ))}
               </div>
