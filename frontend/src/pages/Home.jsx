@@ -183,6 +183,40 @@ const Home = () => {
         </div>
       </motion.nav>
 
+      {/* Right Side Navigation */}
+      <motion.div 
+        initial={{ x: 100, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+        className="fixed right-8 top-1/2 transform -translate-y-1/2 z-40 hidden lg:block"
+      >
+        <div className="flex flex-col gap-6">
+          {[
+            { id: 'home', label: 'Home', icon: '🏠' },
+            { id: 'about', label: 'About', icon: '👤' },
+            { id: 'experience', label: 'Experience', icon: '💼' },
+            { id: 'gallery', label: 'Gallery', icon: '📸' },
+            { id: 'contact', label: 'Contact', icon: '✉️' }
+          ].map((item) => (
+            <motion.button
+              key={item.id}
+              onClick={() => scrollToSection(item.id)}
+              whileHover={{ scale: 1.2, x: -5 }}
+              className={`group relative flex items-center justify-center w-12 h-12 rounded-full border-2 transition-all duration-300 ${
+                activeSection === item.id 
+                  ? 'bg-[#D4AF37] border-[#D4AF37] text-[#0A1628]' 
+                  : 'bg-[#1A2332]/80 border-[#D4AF37]/30 text-[#D4AF37] hover:border-[#D4AF37]'
+              }`}
+            >
+              <span className="text-lg">{item.icon}</span>
+              <div className="absolute right-full mr-4 px-3 py-1 bg-[#D4AF37] text-[#0A1628] rounded-md text-sm font-medium whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
+                {item.label}
+              </div>
+            </motion.button>
+          ))}
+        </div>
+      </motion.div>
+
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
