@@ -690,10 +690,10 @@ const Home = () => {
                   <CardDescription className="text-[#D4AF37] font-semibold">BUTEX Literature Club</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-300 mb-4">Successfully organized major events including:</p>
+                  <p className="text-gray-200 mb-4">Successfully organized major events including:</p>
                   <ul className="space-y-2">
                     {['Rabindra Sondhya', 'Lit Fest', 'Folk Fest', 'Various cultural programs'].map((event, idx) => (
-                      <li key={idx} className="flex items-start gap-3 text-gray-300">
+                      <li key={idx} className="flex items-start gap-3 text-gray-200">
                         <div className="h-1.5 w-1.5 bg-[#D4AF37] rounded-full mt-2"></div>
                         <span>{event}</span>
                       </li>
