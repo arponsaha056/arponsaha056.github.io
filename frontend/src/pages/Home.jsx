@@ -409,7 +409,7 @@ const Home = () => {
                   <CardContent>
                     <ul className="space-y-2">
                       {exp.responsibilities.map((resp, idx) => (
-                        <li key={idx} className="flex items-start gap-3 text-gray-300">
+                        <li key={idx} className="flex items-start gap-3 text-gray-200">
                           <div className="h-1.5 w-1.5 bg-[#D4AF37] rounded-full mt-2"></div>
                           <span className="text-sm">{resp}</span>
                         </li>
