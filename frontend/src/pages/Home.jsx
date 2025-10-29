@@ -342,23 +342,23 @@ const Home = () => {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                   <div>
                     <MapPin className="h-8 w-8 mx-auto mb-2 text-[#D4AF37]" />
-                    <div className="text-sm text-gray-400">Location</div>
-                    <div className="font-semibold">Dhaka, Bangladesh</div>
+                    <div className="text-sm text-gray-300">Location</div>
+                    <div className="font-semibold text-white">Dhaka, Bangladesh</div>
                   </div>
                   <div>
                     <Phone className="h-8 w-8 mx-auto mb-2 text-[#D4AF37]" />
-                    <div className="text-sm text-gray-400">Phone</div>
-                    <div className="font-semibold">+880 1789849716</div>
+                    <div className="text-sm text-gray-300">Phone</div>
+                    <div className="font-semibold text-white">+880 1789849716</div>
                   </div>
                   <div>
                     <Mail className="h-8 w-8 mx-auto mb-2 text-[#D4AF37]" />
-                    <div className="text-sm text-gray-400">Email</div>
-                    <div className="font-semibold text-sm">arponbutextem65@gmail.com</div>
+                    <div className="text-sm text-gray-300">Email</div>
+                    <div className="font-semibold text-white text-sm">arponbutextem65@gmail.com</div>
                   </div>
                   <div>
                     <GraduationCap className="h-8 w-8 mx-auto mb-2 text-[#D4AF37]" />
-                    <div className="text-sm text-gray-400">Education</div>
-                    <div className="font-semibold">BSc Textile Eng.</div>
+                    <div className="text-sm text-gray-300">Education</div>
+                    <div className="font-semibold text-white">BSc Textile Eng.</div>
                   </div>
                 </div>
               </CardContent>
