@@ -753,14 +753,14 @@ const Home = () => {
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <label className="block text-sm font-medium text-gray-300 mb-2">Your Name</label>
+                      <label className="block text-sm font-medium text-gray-200 mb-2">Your Name</label>
                       <Input 
                         type="text"
                         name="name"
                         value={formData.name}
                         onChange={handleInputChange}
                         required
-                        className="bg-[#0A1628]/50 border-[#D4AF37]/30 text-white focus:border-[#D4AF37] transition-colors"
+                        className="bg-[#0A1628]/50 border-[#D4AF37]/30 text-white placeholder:text-gray-400 focus:border-[#D4AF37] transition-colors"
                         placeholder="John Doe"
                       />
                     </div>
