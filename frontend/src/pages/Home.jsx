@@ -272,14 +272,6 @@ const Home = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0A1628] via-transparent to-transparent"></div>
             </div>
-            <motion.div 
-              className="absolute -bottom-6 -right-6 bg-[#D4AF37] text-[#0A1628] p-6 rounded-xl shadow-xl"
-              animate={{ y: [0, -10, 0] }}
-              transition={{ duration: 2, repeat: Infinity, repeatType: "reverse" }}
-            >
-              <div className="text-3xl font-bold">5+ Years</div>
-              <div className="text-sm">Education & Experience</div>
-            </motion.div>
           </motion.div>
         </div>
         <motion.div 
