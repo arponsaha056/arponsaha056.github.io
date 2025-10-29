@@ -580,7 +580,7 @@ const Home = () => {
                       <CardContent className="p-6">
                         <h4 className="font-semibold text-white mb-2">{cert.title}</h4>
                         <div className="flex justify-between items-center text-sm">
-                          <span className="text-gray-400">{cert.provider}</span>
+                          <span className="text-gray-200">{cert.provider}</span>
                           <Badge className="bg-[#D4AF37]/20 text-[#F4C542] border-[#D4AF37]">{cert.year}</Badge>
                         </div>
                       </CardContent>
