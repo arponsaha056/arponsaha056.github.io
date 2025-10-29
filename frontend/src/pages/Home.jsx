@@ -744,7 +744,7 @@ const Home = () => {
                 Get In Touch
               </span>
             </h2>
-            <p className="text-center text-gray-300 mb-12 text-lg">
+            <p className="text-center text-gray-200 mb-12 text-lg">
               Let's discuss how I can contribute to your organization. Feel free to reach out!
             </p>
 
