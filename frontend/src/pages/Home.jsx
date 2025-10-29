@@ -715,10 +715,10 @@ const Home = () => {
                   <CardDescription className="text-[#D4AF37] font-semibold">ARTEX (Art & Photography Club of BUTEX)</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-300 mb-4">Successfully organized creative events including:</p>
+                  <p className="text-gray-200 mb-4">Successfully organized creative events including:</p>
                   <ul className="space-y-2">
                     {['Ovyarthonay Aloron', 'Nirobotay kolorob', 'Graffiti Competition', 'Art exhibitions'].map((event, idx) => (
-                      <li key={idx} className="flex items-start gap-3 text-gray-300">
+                      <li key={idx} className="flex items-start gap-3 text-gray-200">
                         <div className="h-1.5 w-1.5 bg-[#D4AF37] rounded-full mt-2"></div>
                         <span>{event}</span>
                       </li>
